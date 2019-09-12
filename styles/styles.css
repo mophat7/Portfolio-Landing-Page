@@ -15,8 +15,6 @@ header{
     height: 8vh;
     overflow: hidden;
     
-    
-    
   
 }
 
@@ -96,12 +94,7 @@ nav ul li a:hover{
     background-color: #4A235A;
     
 }
-#photo{
-    width:500px;
-    height: auto;
-    
-    
-}
+
 #infor table{
    
     width: 100%;
@@ -121,7 +114,7 @@ nav ul li a:hover{
     list-style: none;
 }
 #social li a:hover, #social li:hover{
-    color:green;
+    color:#ffffff;
 }
 #infor table td{
     font-size:20px;
@@ -443,7 +436,92 @@ input[type="submit"]:hover{
 
 /* media queries */
 @media(max-width:1500px){
+    nav h1{
+        display: none;
+
+}
+nav ul li{
+    width: 100px;
+       
+}
+nav ul li a{
+    color: #BDC3C7;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bolder;
+    font-size:10px;
+    padding:20px;
+      
+}
+
+#About img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    border:solid red 2px;
+    box-shadow: 4px 6px 40px;
+       
+}
+#inf{
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#inf {
+    text-transform: uppercase;
+    text-align: center;
+    color:#ffffff;
+    font-size: 23px;
+}
+.experincebox{
+    width: 300px;
+    height: 150px;
+    border: solid 2px #4A235A;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    box-shadow: 2px 3px 30px;
+    margin-top:10px;
+}
+.experincebox img{
+    width: 50px;
+    height:20px;
+
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    height: 40px;
+    font-size: 10px;
+    padding: 5px;
+    margin: 10px;
     
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin:10px;
+    cursor: pointer;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.fa{
+    font-size: 20px;
+}
+
+
+    
+
           
-    }
+    
 }
