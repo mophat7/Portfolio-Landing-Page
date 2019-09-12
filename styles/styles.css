@@ -149,7 +149,8 @@ nav ul li a:hover{
 
 }
 #inf{
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
     width: 90%;
     height: 300px;
     padding: 20px;
@@ -238,6 +239,15 @@ textarea{
     font-size: 25px;
     margin:40px;
     
+}
+#check{
+    background-color: #4A235A;
+    color: #BDC3C7;
+
+}
+#check:hover{
+    background-color: #BDC3C7;
+    color: #4A235A;
 }
 #myskill h1{
     text-transform: uppercase;
