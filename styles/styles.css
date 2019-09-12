@@ -4,6 +4,7 @@
     margin:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 header{
     display: flex;
@@ -12,6 +13,7 @@ header{
     background-color: #4A235A;
     color: #BDC3C7;
     height: 8vh;
+    overflow: hidden;
     
     
     
@@ -42,6 +44,7 @@ nav{
     justify-content: space-around;
     align-content: center;
     align-items: center;
+    overflow: hidden;
 }
 nav ul li a{
     color: #BDC3C7;
@@ -51,10 +54,7 @@ nav ul li a{
     text-align: center;
     font-size:20px;
     padding:20px;
-    
-    
-    
-    
+      
 }
 nav ul li{
     width: 200px;
@@ -73,6 +73,7 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
     background-image: url("https://www.webzfusion.com/wp-content/uploads/2015/04/portfolio-background.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,16 +175,19 @@ nav ul li a:hover{
     height: 100vh;
     width: 100%;
     justify-content: space-around;
+    margin-top:80px;
+    overflow: hidden;
 
 }
 .experincebox{
     width: 700px;
-    height: 400px;
+    height: 350px;
     border: solid 2px #4A235A;
     padding: 20px;
     text-align: center;
     font-size: 20px;
     box-shadow: 2px 3px 30px;
+    margin-top:90px;
 }
 .experincebox img{
     width: 200px;
@@ -210,6 +214,188 @@ textarea{
     margin: 10px;
     
 }
+#Skills{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#Skills li{
+    margin: 20px;
+    list-style: none;
+
+}
+#myskill{
+    width:80%;
+    height:600px;
+    /* border: solid #4A235A 12px; */
+    padding: 20px;
+    font-size: 25px;
+    margin:40px;
+    
+}
+#myskill h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bar{
+    height:8px;
+    background:#353b48;
+    display: block;
+    width: 80%;
+    border: 2px solid rgba (0,0,0,.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.html{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 90%;
+    border-radius: 5px;  
+    animation: runhtml 7s infinite;
+
+}
+@keyframes runhtml{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.css{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 80%;
+    border-radius: 5px; 
+    animation: runcss 3s; 
+
+}
+@keyframes runcss{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.javascript{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 85%;
+    border-radius: 5px;  
+    animation: runjavascript 4s;
+
+}
+@keyframes runjavascript{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+.jquery{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 96%;
+    border-radius: 5px;  
+    animation: runjquery 5s
+
+}
+@keyframes runjquery{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 96%;
+    }
+}
+.php{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 70%;
+    border-radius: 5px;  
+    animation: runphp 6s;
+
+}
+@keyframes runphp{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.sql{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 75%;
+    border-radius: 5px; 
+    animation: runsql 7s 
+
+}
+@keyframes runsql{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+.mysql{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 60%;
+    border-radius: 5px;  
+    animation: runmysql 8s;
+
+}
+@keyframes runmysql{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
 #formdetails h1{
     text-transform: uppercase;
     text-align: center;
@@ -227,16 +413,27 @@ input[type="submit"]{
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
 }
 #formdetails{
     background-color: rgba(0, 0,0, .1);
-    height: 100%;
-    padding: 50px;
+    width: 80%;
+    height: 500px;
+    padding: 50px;   
+    border-radius: 20px;
 }
 input[type="submit"]:hover{
     background-color: #4A235A;
     color: #BDC3C7;
     border: none;
+}
+
+/* media queries */
+@media(max-width:1500px){
+    
+          
+    }
 }
