@@ -1,4 +1,4 @@
-# Portfolio
+# Landing Page Portfolio
 this is a simple website to help me organize my projects, events, and writing and then display them to the world.
 
 ## Up and running
@@ -22,6 +22,6 @@ the front-end is written in HTML and CSS. I'm using  `html` , along with the `cs
 
 
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+* The site has no license and its free to use 
+Copyright (c) 2019  **Mophat Chemiati**
   
