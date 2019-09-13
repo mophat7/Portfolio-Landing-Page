@@ -522,7 +522,7 @@ input[type="submit"]:hover{
 }
 
 /* media queries */
-@media(max-width:1000px){
+@media(max-width:1500px){
     nav h1{
         display: none;
 }
