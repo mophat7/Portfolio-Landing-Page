@@ -647,3 +647,528 @@ textarea{
 
     
 }
+@media only screen and (min-width:1501){
+    /* Reseting the Body */
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4A235A;
+    color: #BDC3C7;
+    height: 8vh;
+    overflow: hidden;
+    
+  
+}
+
+
+nav h1{
+    cursor: pointer;
+    font-size: 30px;
+    margin:90px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    
+    
+}
+
+nav{
+    position:fixed;
+    background: #4A235A;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+nav ul li a{
+    color: #BDC3C7;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+      
+}
+nav ul li{
+    width: 200px;
+    
+    
+}
+nav ul li a:hover{
+    background-color: #BDC3C7;
+    color: #4A235A;
+}
+
+#About{
+    height: 92vh;
+    display: flex;
+    widows: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/48/42/laptop-and-phone-with-book-and-coffee-and-crepe-vector-6104842.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+    
+#About img{
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    border:solid red 2px;
+    box-shadow: 4px 6px 40px
+    
+
+    
+}
+#social{
+    width:100%;
+    height: 100px;
+    background-color: #4A235A;
+    
+}
+#project{
+    width: 100%;
+    height: 100vh;
+    background-color: #353b48;
+}
+#project img{
+    width: 600px;
+    height: 400px;
+    margin-left: 33%;
+
+}
+#project h1{
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: #BDC3C7;
+    
+}
+#project p{
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: #BDC3C7;
+}
+
+#infor table{
+   
+    width: 100%;
+}
+#social ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+#social li a, #social li{
+    margin-top: 30px;
+    color: #BDC3C7;
+    cursor: pointer;
+    text-decoration:none;
+    list-style: none;
+}
+#social li a:hover, #social li:hover{
+    color:#ffffff;
+}
+#infor table td{
+    font-size:20px;
+    border:solid 2px #4A235A;
+    padding:10px;
+    color: #4A235A;
+}
+#infor table td a{
+    text-decoration: none;
+    color:#4A235A;
+}
+#abtme h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #4A235A;
+    padding:20px;
+}
+ #inf {
+    text-transform: uppercase;
+    text-align: center;
+    color:black;
+    font-size: 40px;
+
+
+}
+#inf{
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    width: 90%;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#inf a{
+    border:solid 2px #4A235A;
+    text-decoration: none;
+    padding:20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+#moreinfo{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("https://thumbs.dreamstime.com/b/close-up-view-still-life-laptop-smartphone-pen-glasses-next-to-cup-coffee-white-background-95300562.jpg"); */
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 70%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    
+    
+    
+}
+
+#moreinfo .box{
+    flex-basis: 700px;
+    height: 300px;
+    border: #4A235A solid 3px;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 3px 5px 60px
+}
+#Personal h1{
+    text-align: center;
+    padding: 5px;
+    color: #4A235A;
+    margin-bottom: 20px;
+}
+#Personal img{
+    width: 70px;
+    height: 50px;
+    margin-left:50%;
+    border-radius: 50%;
+    border: solid 3px #4A235A;
+    box-shadow: 2px 4px 30px
+}
+#Education{
+    text-align: center;
+    color: #4A235A;
+    background-color: rgba(22, 11, 48, 0.1);
+}
+#Education h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#Hobbies h1{
+    text-align: center;
+    text-transform: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#experience {
+    text-align: center;
+}
+#abtme p{
+    font-size: 20px;
+    text-align: center;
+    color: #4A235A;
+}
+#Experience{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-around;
+    margin-top:80px;
+    overflow: hidden;
+
+}
+.experincebox{
+    width: 700px;
+    height: 350px;
+    border: solid 2px #4A235A;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 3px 30px;
+    margin-top:90px;
+}
+.experincebox img{
+    width: 200px;
+    height:100px;
+
+}
+#working h1{
+    text-transform: uppercase;
+    padding: 50px;
+    text-align: center;
+
+}
+input[type="text"], input[type="email"]{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.level{
+    color: red;
+}
+textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#Skills{
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#Skills li{
+    margin: 20px;
+    list-style: none;
+
+}
+#myskill{
+    width:80%;
+    height:600px;
+    /* border: solid #4A235A 12px; */
+    padding: 20px;
+    font-size: 25px;
+    margin:40px;
+    
+}
+#check{
+    background-color: #4A235A;
+    color: #BDC3C7;
+
+}
+#check:hover{
+    background-color: #BDC3C7;
+    color: #4A235A;
+}
+#myskill h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bar{
+    height:8px;
+    background:#353b48;
+    display: block;
+    width: 80%;
+    border: 2px solid rgba (0,0,0,.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.html{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 90%;
+    border-radius: 5px;  
+    animation: runhtml 7s infinite;
+
+}
+@keyframes runhtml{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.css{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 80%;
+    border-radius: 5px; 
+    animation: runcss 3s; 
+
+}
+@keyframes runcss{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.javascript{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 85%;
+    border-radius: 5px;  
+    animation: runjavascript 4s;
+
+}
+@keyframes runjavascript{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+.jquery{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 96%;
+    border-radius: 5px;  
+    animation: runjquery 5s
+
+}
+@keyframes runjquery{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 96%;
+    }
+}
+.php{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 70%;
+    border-radius: 5px;  
+    animation: runphp 6s;
+
+}
+@keyframes runphp{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.sql{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 75%;
+    border-radius: 5px; 
+    animation: runsql 7s 
+
+}
+@keyframes runsql{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+.mysql{
+    height:8px;
+    background:#2187e7b3;
+    display: block;
+    width: 60%;
+    border-radius: 5px;  
+    animation: runmysql 8s;
+
+}
+@keyframes runmysql{
+    0%{
+        width: 0;
+    }
+    70%{
+        width: 100%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+#formdetails h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px
+}
+
+input[type="submit"]{
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    margin:10px;
+    cursor: pointer;
+}
+#Contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+#formdetails{
+    background-color: rgba(0, 0,0, .1);
+    width: 80%;
+    height: 500px;
+    padding: 50px;   
+    border-radius: 20px;
+}
+input[type="submit"]:hover{
+    background-color: #4A235A;
+    color: #BDC3C7;
+    border: none;
+}
+    
+}
