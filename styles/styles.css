@@ -260,6 +260,9 @@ input[type="text"], input[type="email"]{
     margin: 10px;
     
 }
+.level{
+    color: red;
+}
 textarea{
     width: 90%;
     padding: 10px;
