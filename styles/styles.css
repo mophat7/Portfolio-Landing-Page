@@ -160,10 +160,10 @@ nav ul li a:hover{
 #moreinfo{
     width: 100%;
     height: 100vh;
-    background-image: url("https://rukminim1.flixcart.com/image/832/832/laptop-skin-decal/9/h/c/14-1-posterhunt-svpnca11798-coffee-laptop-skin-original-imaej82y7uhm7azg.jpeg?q=70");
+    /* background-image: url("https://thumbs.dreamstime.com/b/close-up-view-still-life-laptop-smartphone-pen-glasses-next-to-cup-coffee-white-background-95300562.jpg"); */
     background-repeat: no-repeat;
     background-position-x: 50%;
-    background-position-y: 50%;
+    background-position-y: 70%;
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -173,6 +173,7 @@ nav ul li a:hover{
     
     
 }
+
 #moreinfo .box{
     flex-basis: 700px;
     height: 300px;
@@ -188,6 +189,23 @@ nav ul li a:hover{
     padding: 5px;
     color: #4A235A;
     margin-bottom: 20px;
+}
+#Personal img{
+    width: 70px;
+    height: 50px;
+    margin-left:50%;
+    border-radius: 50%;
+    border: solid 3px #4A235A;
+    box-shadow: 2px 4px 30px
+}
+#Education{
+    text-align: center;
+    color: #4A235A;
+    background-color: rgba(22, 11, 48, 0.1);
+}
+#Education h1{
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 #abtme p{
     font-size: 20px;
