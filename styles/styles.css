@@ -94,6 +94,32 @@ nav ul li a:hover{
     background-color: #4A235A;
     
 }
+#project{
+    width: 100%;
+    height: 100vh;
+    background-color: #353b48;
+}
+#project img{
+    width: 600px;
+    height: 400px;
+    margin-left: 33%;
+
+}
+#project h1{
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: #BDC3C7;
+    
+}
+#project p{
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: #BDC3C7;
+}
 
 #infor table{
    
