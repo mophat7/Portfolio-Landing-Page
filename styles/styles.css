@@ -496,7 +496,6 @@ input[type="submit"]:hover{
 @media(max-width:1500px){
     nav h1{
         display: none;
-
 }
 nav ul li{
     width: 100px;
